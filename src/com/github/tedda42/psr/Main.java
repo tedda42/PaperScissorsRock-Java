@@ -23,5 +23,12 @@ public class Main {
 
         System.out.println("userChoice = " + userChoice);
         System.out.println("computerChoice = " + computerChoice);
+
+        String result = compare(userChoice, computerChoice);
+        System.out.println("result = " + result);
+    }
+
+    static String compare(String choice1, String choice2) {
+        return "TODO";
     }
 }
