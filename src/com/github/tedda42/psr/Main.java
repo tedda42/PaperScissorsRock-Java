@@ -29,6 +29,29 @@ public class Main {
     }
 
     static String compare(String choice1, String choice2) {
-        return "TODO";
+        if (choice1.equals(choice2)) {
+            return "The result is a tie!";
+        } else if (choice1.equals("rock")) {
+            if (choice2.equals("scissors")) {
+                return "rock wins!";
+            } else {
+                return "paper wins!";
+            }
+        } else if (choice1.equals("paper")) {
+            if (choice2.equals("rock")) {
+                return "paper wins!";
+            }
+            else {
+                return "scissors wins!";
+            }
+        } else if (choice1.equals("scissors")) {
+            if (choice2.equals("rock")) {
+                return "rock wins!";
+            } else {
+                return "scissors wins!";
+            }
+        } else {
+            return "Invalid choice '" + choice1 +"'";
+        }
     }
 }
