@@ -21,11 +21,11 @@ public class Main {
             computerChoice = "scissors";
         }
 
-        System.out.println("userChoice = " + userChoice);
-        System.out.println("computerChoice = " + computerChoice);
+        System.out.println("User    : " + userChoice);
+        System.out.println("Computer: " + computerChoice);
 
         String result = compare(userChoice, computerChoice);
-        System.out.println("result = " + result);
+        System.out.println(result);
     }
 
     static String compare(String choice1, String choice2) {
