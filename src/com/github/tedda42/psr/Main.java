@@ -10,6 +10,8 @@ public class Main {
         System.out.println("Do you choose rock, paper or scissors?");
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         String userChoice = br.readLine();
-        System.out.println("You entered = " + userChoice);
+        System.out.println("userChoice = " + userChoice);
+        double computerChoice = Math.random();
+        System.out.println("computerChoice = " + computerChoice);
     }
 }
